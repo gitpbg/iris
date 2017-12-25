@@ -250,7 +250,7 @@ class IrisTraining:
                     
 
 def main():
-    iris = IrisTraining(10000, 5, 0.5)
+    iris = IrisTraining(10000, 10, 0.3)
     if len(sys.argv) > 1:
         resname = sys.argv[1]
         print("FILENAME " + resname)
